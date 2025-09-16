@@ -1,4 +1,3 @@
-main() {
-  print("\nHello world\n");
-  print("FREAK!, hehe, just kiding");
+void main(List<String> args) {
+  print('Hello World');
 }
