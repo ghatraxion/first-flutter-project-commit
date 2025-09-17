@@ -13,6 +13,7 @@ const ucup = "ucup";
 var first = "ucup";
 var last = "prayogo";
 void main(List<String> args) {
+  print("-- ini adalah program ke 2 saya --")
   var radius = 7;
   radius = 10; // ini adalah mutable
   print("luas lingkaran adalah: ${luaslingkaran(radius)}");

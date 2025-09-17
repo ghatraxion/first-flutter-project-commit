@@ -1,6 +1,7 @@
 import 'dart:io';
 
 void main() {
+  print("=== ini adalah file gabut yang saya buat menggunakan dart ===");
   while (true) {
     stdout.write("masukan password anda : ");
     var input1 = stdin.readLineSync();

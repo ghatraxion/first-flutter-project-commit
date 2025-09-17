@@ -18,4 +18,5 @@ void main(List<String> args) {
   print("num2 adalah: $num2");
   print("dibawah ini adalah hasilnya: ");
   print(num1 + num2);
+  print("thank's sudah melihat tugas saya");
 }
