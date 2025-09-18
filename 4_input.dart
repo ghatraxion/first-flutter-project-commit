@@ -1,22 +1,14 @@
 import 'dart:io';
 
-//yang diatas namanya packages:)
 void main() {
-  stdout.write("masukan password anda: ");
-  var input1 = stdin.readLineSync()!;
-  while (true) {
-    stdout.write("masukan lagi password anda: ");
-    var input2 = stdin.readLineSync()!;
-    print(("======================="));
-    if (input2 == input1) {
-      print("-----------------------");
-      print("Password anda benar:)");
-      print("-----------------------");
-      break;
-    } else {
-      print("-----------------------");
-      print("Password salah:(");
-      print("-----------------------");
-    }
-  }
+  print("\n==== SELAMAT DATANG DI PROGRAM INPUT MILIK AGHA ====");
+  stdout.write("Masukan namamu!: ");
+  var name_input = stdin.readLineSync()!;
+  print("----------------------------------------------------");
+  stdout.write("Masukan umurmu!: ");
+  int age_input = int.parse(stdin.readLineSync()!);
+  print("----------------------------------------------------");
+  print("=== TERIMA KASIH TELAH MEMASUKAN INPUT! ===\n");
+  print("halo $name_input, kamu berumur $age_input tahun!\n");
+  print("=== PROGRAM INI DIBUAT OLEH AGHA ===");
 }
