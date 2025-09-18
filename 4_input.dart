@@ -1,5 +1,6 @@
 import 'dart:io';
 
+//yang diatas namanya packages:)
 void main() {
   stdout.write("masukan password anda: ");
   var input1 = stdin.readLineSync()!;
