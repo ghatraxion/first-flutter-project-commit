@@ -4,10 +4,10 @@ never ends, *myber* */
 
 void main(List<String> args) {
   print('Hello World');
-  print("2 x 2 = ${multiply()}");
+  print("5 x 5 = ${multiply()}");
   print("emnna");
 }
 
 int multiply() {
-  return 2 * 2;
+  return 5 * 5;
 }
