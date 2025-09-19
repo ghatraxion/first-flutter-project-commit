@@ -31,4 +31,5 @@
 void main(List<String> args) {
   var name_height;
   name_height = "ucup";
+  print(name_height);
 }
