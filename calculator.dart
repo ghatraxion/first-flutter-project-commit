@@ -8,11 +8,12 @@ void main(List<String> args) {
       "---- Choose your operation by the number or press 0 to exit ----\n",
     );
     stdout.write(
-      "1. Addition (+)\n2. Subtraction (-)\n3. Multiplication (*)\n4. Division (/)\n",
+      " 1. Addition (+)\n2. Subtraction (-)\n3. Multiplication (*)\n4. Division (/)\n",
     );
     stdout.write("Enter the number of your operation: ");
     int choise = int.parse(stdin.readLineSync()!);
     stdout.write("--------------------------------\n");
+    // addtion (+)
     if (choise == 1) {
       stdout.write("You choose addition\n");
       stdout.write("Enter the first number: ");
@@ -22,7 +23,9 @@ void main(List<String> args) {
       double result = num1 + num2;
       stdout.write("=== RESULT ===\n");
       stdout.write("$num1 + $num2 = $result\n");
-    } else if (choise == 2) {
+    }
+    // subtraction (-)
+    else if (choise == 2) {
       stdout.write("You choose subtraction\n");
       stdout.write("Enter the first number: ");
       double num1 = double.parse(stdin.readLineSync()!);
@@ -31,7 +34,9 @@ void main(List<String> args) {
       double result = num1 - num2;
       stdout.write("=== RESULT ===\n");
       stdout.write("$num1 - $num2 = $result\n");
-    } else if (choise == 3) {
+    }
+    // multiplication (*)
+    else if (choise == 3) {
       stdout.write("You choose multiplication\n");
       stdout.write("Enter the first number: ");
       double num1 = double.parse(stdin.readLineSync()!);
@@ -40,7 +45,9 @@ void main(List<String> args) {
       double result = num1 * num2;
       stdout.write("=== RESULT ===\n");
       stdout.write("$num1 x $num2 = $result\n");
-    } else if (choise == 4) {
+    }
+    // division (/)
+    else if (choise == 4) {
       stdout.write("You choose division\n");
       stdout.write("Enter the first number: ");
       double num1 = double.parse(stdin.readLineSync()!);
@@ -50,6 +57,17 @@ void main(List<String> args) {
       stdout.write("=== RESULT ===\n");
       stdout.write("$num1 / $num2 = $result\n");
     }
-    else if (choise)
+    // exiting the program
+    else if (choise == 0) {
+      stdout.write("=== EXITING THE PROGRAM ===\n");
+      stdout.write("=== THANK YOU FOR USING THIS PROGRAM ===\n");
+      stdout.write("\n");
+      break;
+    }
+    // invalid input
+    else {
+      stdout.write("\n=== INVALID INPUT ===\n");
+      stdout.write("=== PLEASE CHOOSE BY THE NUMBER BELOW ===\n");
+    }
   }
 }
