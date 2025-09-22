@@ -1,5 +1,3 @@
-import 'dart:io';
-
 /**
 === OPERATOR ===
 Pengunaan operator =
@@ -9,7 +7,7 @@ perkalian = *
 pembagian = /
 modulus = %
  */
-void main(List<String> args) {
+void main() {
   int number_one = 10;
   int number_two = 20;
   var a = 1;
