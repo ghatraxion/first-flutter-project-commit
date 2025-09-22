@@ -29,3 +29,7 @@ void main(List<String> args) {
   print("$number_one % $number_two = ${number_one % number_two}");
   print("=== OPERATOR SELESAI ===\n");
 }
+/**
+=== INCREMENT & DECREMENT ===
+===Increment (++) menambah 1 nilai variabel=== 
+===Decrement (--) mengurangi 1 nilai variable===*/
