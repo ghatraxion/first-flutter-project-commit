@@ -16,6 +16,10 @@ maka hasilnya true
 void main(List<String> args) {
   var a = 10;
   var b = 5;
+  var c = false;
+  var d = false;
+  var e = true;
+
   print("\n=== OPERATOR PERBANDINGAN ===");
   print('$a > $b = ${a > b}');
   print('$a < $b = ${a < b}');
@@ -23,5 +27,8 @@ void main(List<String> args) {
   print('$a <= $b = ${a <= b}');
   print('$a == $b = ${a == b}');
   print('$a != $b = ${a != b}');
-  print('=== OPERATOR LOGIKA ===\n');
+  print('$c || $d = ${c || d}');
+  print('$c && $d = ${c && d}');
+  print('$c || $d && $e = ${c || d && e}');
+  print('=== FINISHED ===\n');
 }
