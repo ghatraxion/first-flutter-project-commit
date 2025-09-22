@@ -19,7 +19,7 @@ void main(List<String> args) {
 
   print("\n===-OPERATOR-===");
   print("number_one = $number_one");
-  print("number_two = $number_two");
+  print("number_two = $number_two\n");
   print("===----HASIL-OPERATOR----===");
   // === Hasil penjumlahan(+) ===
   print("$number_one + $number_two = ${number_one + number_two}");
@@ -31,6 +31,7 @@ void main(List<String> args) {
   print("$number_one / $number_two = ${number_one / number_two}");
   // === Hasil modulus(%) ===
   print("$number_one % $number_two = ${number_one % number_two}");
+  print("=== FINISHED! ===\n");
   // === Contoh penggunaan increment(++) ===
   print("=== INCREMENT & DECREMENT ===");
   print("Nilai a = $a");
