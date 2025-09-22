@@ -1,4 +1,4 @@
-import 'dart:math';
+import 'dart:io';
 
 /**
 === OPERATOR ===
@@ -41,7 +41,6 @@ void main(List<String> args) {
   print("=== FINISHED! ===\n");
 
   print("=== OPERATOR SELESAI ===\n");
-
 }
 /**
 === INCREMENT & DECREMENT ===

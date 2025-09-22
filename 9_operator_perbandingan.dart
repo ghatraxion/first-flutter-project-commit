@@ -18,7 +18,6 @@ void main(List<String> args) {
   var b = 5;
   var c = false;
   var d = false;
-  var e = true;
 
   print("\n=== OPERATOR PERBANDINGAN ===");
   print('$a > $b = ${a > b}');
@@ -28,7 +27,5 @@ void main(List<String> args) {
   print('$a == $b = ${a == b}');
   print('$a != $b = ${a != b}');
   print('$c || $d = ${c || d}');
-  print('$c && $d = ${c && d}');
-  print('$c || $d && $e = ${c || d && e}');
   print('=== FINISHED ===\n');
 }
