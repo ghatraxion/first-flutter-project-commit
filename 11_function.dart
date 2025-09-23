@@ -34,4 +34,21 @@ void main(List<String> args) {
   selamat2("agha", "rafif", 12);
   selamat3("agha", 17);
   selamat4("agha");
+  print("luas lingkaran: ${luaslingkaran(10)}");
+  print("keliling lingkaran: ${k_lingkara(10)}");
+  print("luas persegi: ${luaspersegi(10)}");
 }
+
+/**
+ * arrow function
+ * with return value
+ */
+const phi = 3.14; //variable konstanta
+num k_lingkara(num r) {
+  return phi * r * r;
+}
+
+// ARROW FUNCTION
+num luaslingkaran(num r) => 2 * phi * r;
+
+num luaspersegi(num s) => s * s;
