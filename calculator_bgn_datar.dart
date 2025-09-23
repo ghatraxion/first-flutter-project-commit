@@ -63,7 +63,7 @@ void main(List<String> args) {
       stdout.write("Masukan pilihanmu: ");
       int choise = int.parse(stdin.readLineSync()!);
       if (choise == 1) {
-        stdout.write("\n~=== Mneghitung Luas Segitiga ===~\n");
+        stdout.write("\n~=== Menghitung Luas Segitiga ===~\n");
         stdout.write("Masukan Alas: ");
         int alas = int.parse(stdin.readLineSync()!);
         stdout.write("Masukan Tinggi: ");
@@ -83,7 +83,6 @@ void main(List<String> args) {
       }
     } else if (opsi == 4) {
       stdout.write("=== KALKULATOR LINGKARAN ===\n");
-      stdout.write("=== KALKULATOR SEGITIGA ===\n");
       stdout.write("===Pilih Operasi: \n");
       stdout.write("1. Menghitung Luas\n");
       stdout.write("2. Menghitung Keliling\n");
