@@ -89,7 +89,21 @@ void main(List<String> args) {
       stdout.write("2. Menghitung Keliling\n");
       stdout.write("Masukan pilihanmu: ");
       int choise = int.parse(stdin.readLineSync()!);
-      if (choise == 1)
+      if (choise == 1) {
+        stdout.write("\n~=== Menghitung Luas Lingkaran ===~\n");
+        stdout.write("Masukan Jari-Jari: ");
+        int r = int.parse(stdin.readLineSync()!);
+        double phi = 3.14;
+        double result = phi * r * r;
+        stdout.write("Luas Lingkaran Adalah: $result\n");
+      } else if (choise == 2) {
+        stdout.write("\n~=== Menghitung Keliling Lingkaran ===~");
+        stdout.write("Masukan Jari-Jari: ");
+        int r = int.parse(stdin.readLineSync()!);
+        double phi = 3.14;
+        double result = 2 * phi * r;
+        stdout.write("Keliling Lingkaran Adalah: $result\n");
+      }
     } else if (opsi == 5) {
       break;
     } else {
