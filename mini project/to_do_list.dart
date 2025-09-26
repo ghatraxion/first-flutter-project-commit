@@ -7,7 +7,7 @@ void main() {
     stdout.write("1. Lihat List\n");
     stdout.write("2. Tambah List\n");
     stdout.write("3. Hapus Tugas\n");
-    stdout.write("4. Exit Program");
+    stdout.write("4. Exit Program\n");
     int opsi = int.parse(stdin.readLineSync()!);
     if (opsi == 1) {
       if (todolist.isEmpty) {
