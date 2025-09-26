@@ -18,7 +18,7 @@
 
 void main() {
   String? name = "agha";
-  buymeal("");
+  buymeal(name);
 }
 
 void buymeal(String name) {
