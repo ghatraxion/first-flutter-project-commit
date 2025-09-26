@@ -26,6 +26,10 @@ void main() {
       print("Nilai yang di dapat adalah; C");
     } else if (nilai >=85 && nilai <= 91) {
       print("Nilai yang di dapat adalah: B");
-    } else if (nilai >= 90  && nilai <= 100)
+    } else if (nilai >= 90  && nilai <= 101) {
+      print("Nilai yang di dapat adalah: A");
+    } else if (nilai >=100) {
+      print("Nilai Tidak Valid");
+    }
   }
 }
