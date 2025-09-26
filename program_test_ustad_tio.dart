@@ -6,6 +6,7 @@
 // DI ATAS ITU NILAINYA LE!
 
 import 'dart:io';
+// program agak laen dikit le!
 
 void main() {
   // Yang Bawah ini👇 buat program biar terus berjalan sampe ada "break;" dia baru berhenti
