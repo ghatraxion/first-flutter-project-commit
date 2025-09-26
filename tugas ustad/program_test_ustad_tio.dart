@@ -42,7 +42,7 @@ void main() {
         print("Nilai yang di dapat adalah: A\n");
       }
       // Yang Bawah ini👇 kalo nilai lebih dari 100 dia bakal return print tidak valid
-      else if (nilai >= 100) {
+      else if (nilai >= 100 && nilai <= 0) {
         print("=== Nilai Tidak Valid ===\n");
         print("Masukan Nilai 1 - 100\n");
       }
