@@ -22,16 +22,21 @@ void main() {
       if (nilai < 70) {
         print("Nilai Yang di dapat adalah: A");
       } else if (nilai >= 70 && nilai <= 76) {
-        print("Nilai yang di dapat adalah: D");
+        print("Nilai yang di dapat adalah: D\n");
       } else if (nilai >= 75 && nilai <= 86) {
-        print("Nilai yang di dapat adalah; C");
+        print("Nilai yang di dapat adalah; C\n");
       } else if (nilai >= 85 && nilai <= 91) {
-        print("Nilai yang di dapat adalah: B");
+        print("Nilai yang di dapat adalah: B\n");
       } else if (nilai >= 90 && nilai <= 101) {
-        print("Nilai yang di dapat adalah: A");
+        print("Nilai yang di dapat adalah: A\n");
       } else if (nilai >= 100) {
-        print("Nilai Tidak Valid");
+        print("Nilai Tidak Valid\n");
       }
+    } else if (opsi == 2) {
+      print("=== PROGRAM EXITED! ===\n\n");
+      break;
+    } else {
+      print("=== INPUT TIDAK VALID! ===");
     }
   }
 }
