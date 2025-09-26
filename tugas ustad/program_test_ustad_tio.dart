@@ -22,7 +22,7 @@ void main() {
       stdout.write("Masukan Nilai: ");
       num nilai = num.parse(stdin.readLineSync()!);
       // Yang Bawah ini👇 buat nilai "E"
-      if (nilai < 70) {
+      if (nilai < 70 && nilai < 0) {
         print("Nilai Yang di dapat adalah: E");
       }
       // Yang Bawah ini👇 buat nilai "D"

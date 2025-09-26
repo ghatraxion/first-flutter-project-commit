@@ -6,3 +6,9 @@
  * (kesalahan kode) maka akan mengalami infinity loop
  * sampe crash biasanya
  */
+
+void main() {
+  for (var i = 0; i < 10; i++) {
+    print("Hallo agha!");
+  }
+}
