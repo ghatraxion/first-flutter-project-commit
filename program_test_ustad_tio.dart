@@ -8,6 +8,7 @@
 import 'dart:io';
 
 void main() {
+  // Yang Bawah ini👇 buat program biar terus berjalan sampe ada "break;" dia baru berhenti
   while (true) {
     stdout.write("\n=== PROGRAM NILAI UJIAN ===\n");
     stdout.write("Pilihan / opsi: \n");
@@ -19,24 +20,39 @@ void main() {
       stdout.write("\n=== PROGRAM CEK NILAI ===\n");
       stdout.write("Masukan Nilai: ");
       num nilai = num.parse(stdin.readLineSync()!);
+      // Yang Bawah ini👇 buat nilai "E"
       if (nilai < 70) {
         print("Nilai Yang di dapat adalah: E");
-      } else if (nilai >= 71 && nilai <= 75) {
+      }
+      // Yang Bawah ini👇 buat nilai "D"
+      else if (nilai >= 71 && nilai <= 75) {
         print("Nilai yang di dapat adalah: D\n");
-      } else if (nilai >= 76 && nilai <= 85) {
+      }
+      // Yang Bawah ini👇 buat nilai "C"
+      else if (nilai >= 76 && nilai <= 85) {
         print("Nilai yang di dapat adalah; C\n");
-      } else if (nilai >= 86 && nilai <= 90) {
+      }
+      // Yang Bawah ini👇 buat nilai "B"
+      else if (nilai >= 86 && nilai <= 90) {
         print("Nilai yang di dapat adalah: B\n");
-      } else if (nilai >= 91 && nilai <= 100) {
+      }
+      // Yang Bawah ini👇 buat nilai "A"
+      else if (nilai >= 91 && nilai <= 100) {
         print("Nilai yang di dapat adalah: A\n");
-      } else if (nilai >= 100) {
+      }
+      // Yang Bawah ini👇 kalo nilai lebih dari 100 dia bakal return print tidak valid
+      else if (nilai >= 100) {
         print("=== Nilai Tidak Valid ===\n");
         print("Masukan Nilai 1 - 100\n");
       }
-    } else if (opsi == 2) {
+    }
+    // Yang Bawah ini👇 buat keluar dari program
+    else if (opsi == 2) {
       print("=== PROGRAM EXITED! ===\n\n");
       break;
-    } else {
+    }
+    // Yang Bawah ini👇 jika input pilihan metode tidak 1 - 2
+    else {
       print("=== INPUT TIDAK VALID! ===");
     }
   }
