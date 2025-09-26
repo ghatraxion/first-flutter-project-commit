@@ -20,17 +20,18 @@ void main() {
       stdout.write("Masukan Nilai: ");
       num nilai = num.parse(stdin.readLineSync()!);
       if (nilai < 70) {
-        print("Nilai Yang di dapat adalah: A");
-      } else if (nilai >= 70 && nilai <= 76) {
+        print("Nilai Yang di dapat adalah: E");
+      } else if (nilai >= 71 && nilai <= 75) {
         print("Nilai yang di dapat adalah: D\n");
-      } else if (nilai >= 75 && nilai <= 86) {
+      } else if (nilai >= 76 && nilai <= 85) {
         print("Nilai yang di dapat adalah; C\n");
-      } else if (nilai >= 85 && nilai <= 91) {
+      } else if (nilai >= 86 && nilai <= 90) {
         print("Nilai yang di dapat adalah: B\n");
-      } else if (nilai >= 90 && nilai <= 101) {
+      } else if (nilai >= 91 && nilai <= 100) {
         print("Nilai yang di dapat adalah: A\n");
       } else if (nilai >= 100) {
-        print("Nilai Tidak Valid\n");
+        print("=== Nilai Tidak Valid ===\n");
+        print("Masukan Nilai 1 - 100\n");
       }
     } else if (opsi == 2) {
       print("=== PROGRAM EXITED! ===\n\n");
