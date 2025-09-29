@@ -1,5 +1,3 @@
-import 'dart:io';
-
 /**
  * for loop digunakan untuk menjalankan perulangan kode
  * yang mana jika sudah mecapai hasil yang diinginkan maka
@@ -8,5 +6,7 @@ import 'dart:io';
  */
 
 void main() {
-  
+  for (var i = 1; i <= 10; i++) {
+    print("ini adalah angka $i");
+  }
 }
