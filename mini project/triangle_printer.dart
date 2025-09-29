@@ -42,6 +42,8 @@ void main() {
     } else if (option == 4) {
       print("\n=== PROGRAM EXITED! ===\n");
       break;
+    } else {
+      print("\n=== INVALID INPUT! ===\n");
     }
   }
 }
