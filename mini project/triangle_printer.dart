@@ -29,5 +29,9 @@ void main() {
       }
       print("");
     }
+  } else if (option == 3) {
+    stdout.write("\n=== CENTER TRIANGLE\n");
+    stdout.write("How many line?: ");
+    int line = int.parse(stdin.readLineSync()!);
   }
 }
