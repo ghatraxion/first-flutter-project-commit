@@ -8,5 +8,9 @@ void main() {
   stdout.write("3. center small to big triangle\n");
   stdout.write("4. Exit!\n");
   stdout.write("Enter the option number: ");
-  int option = int.parse
+  int option = int.parse(stdin.readLineSync()!);
+  if (option == 1) {
+    stdout.write("\n=== BIG TO SMALL TRIANGLE\n");
+    int line = int.parse(stdin.readLineSync()!);
+  }
 }
