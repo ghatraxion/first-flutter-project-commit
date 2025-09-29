@@ -39,6 +39,9 @@ void main() {
         String star = "*" * (2 * i - 1);
         print(space + star);
       }
+    } else if (option == 4) {
+      print("\n=== PROGRAM EXITED! ===\n");
+      break;
     }
   }
 }
