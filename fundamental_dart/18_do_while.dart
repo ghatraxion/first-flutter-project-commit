@@ -19,3 +19,9 @@ void main() {
  * while loop => cek kondisi baru jalan
  * do while => jalan dulu baru cek kondisi
  */
+
+/**
+ * buatkan program yang menampilkan angka 1 - 30
+ * dengan kelipatan 3
+ * menggunakan do while
+ */
