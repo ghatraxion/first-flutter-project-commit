@@ -1,5 +1,5 @@
 void main() {
-  int angka = 0;
+  int angka = 1;
 
   do {
     print("angka ke ${angka}");
