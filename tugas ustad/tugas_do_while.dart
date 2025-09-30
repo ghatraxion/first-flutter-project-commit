@@ -1,11 +1,11 @@
 void main() {
   int tujuh = 0;
-  int hasil = 0;
+  int hasil = tujuh;
 
   do {
     print("angka ke: $tujuh");
+    hasil += tujuh;
     tujuh += 7;
-    
   } while (tujuh <= 100);
-  print(hasil);
+  print("hasil keseluruhan: $hasil");
 }
