@@ -14,4 +14,6 @@ void main() {
     angka++;
   } while (angka <= 5);
 }
-
+/**
+ * while loop => cek kondisi baru jalan
+ */
