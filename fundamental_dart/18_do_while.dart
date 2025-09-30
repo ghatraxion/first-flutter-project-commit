@@ -16,4 +16,5 @@ void main() {
 }
 /**
  * while loop => cek kondisi baru jalan
+ * do while => 
  */
