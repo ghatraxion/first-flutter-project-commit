@@ -3,6 +3,6 @@ void main() {
 
   do {
     print("angka ke ${angka * 3}");
-    angka++;
-  } while (angka <= 10);
+    angka += 3;
+  } while (angka <= 30);
 }
