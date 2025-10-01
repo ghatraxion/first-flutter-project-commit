@@ -40,9 +40,8 @@ void main() {
         if (hapus < 1 || hapus > list.length) {
           print("INPUT TIDAK VALID!");
         } else {
-          var ilang = list.removeAt(hapus - 1) {
-            print("list ke ${hapus} berhasil di hapus!");
-          }
+          var ilang = list.removeAt(hapus - 1);
+          print("list ke ${ilang} berhasil di hapus!");
         }
       }
     }
