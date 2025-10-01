@@ -36,6 +36,14 @@ void main() {
         }
         stdout.write("Masukan nomor yang ingin dihapus: ");
         int hapus = int.parse(stdin.readLineSync()!);
+
+        if (hapus < 1 || hapus > list.length) {
+          print("INPUT TIDAK VALID!");
+        } else {
+          var ilang = list.removeAt(hapus - 1) {
+            print("list ke ${hapus} berhasil di hapus!");
+          }
+        }
       }
     }
   }
