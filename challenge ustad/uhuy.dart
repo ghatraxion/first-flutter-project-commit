@@ -42,28 +42,20 @@ void main() {
     } else if (opsi == 2) {
       print("\n== SWITCH CASE WORK TIME ==");
       stdout.write("enter the day: ");
-      var day = stdin.readLineSync()!;
-      var sens = day.toLowerCase();
-      switch (sens) {
+      var day = stdin.readLineSync()!.toLowerCase();
+      switch (day) {
         case "senin":
-          print("\nTIME TO WORK!");
-          break;
         case "selasa":
-          print("\nTIME TO WORK!");
-          break;
         case "rabu":
-          print("\nTIME TO WORK!");
-          break;
-        case "kamis" && "khamis":
-          print("\nTIME TO WORK!");
-          break;
-        case "jumat" && "jum'at":
+        case "kamis":
+        case "Khamis":
+        case "jum'at":
+        case "jumat":
           print("\nTIME TO WORK!");
           break;
         case "sabtu":
-          print("\nHOLIDAY TIME!");
-          break;
-        case "minggu" && 'ahad':
+        case "minggu":
+        case "ahad":
           print("\nHOLIDAY TIME!");
           break;
         default:
@@ -96,6 +88,11 @@ void main() {
           print("\nLOL, you got nothing!");
           print("please insert number less than 10!");
       }
+    } else if (opsi == 4) {
+      print("\n== GOOD BYE! ==\n");
+      break;
+    } else {
+      print("\n=== INPUT INCORRECT! ===");
     }
   }
 }
