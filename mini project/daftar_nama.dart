@@ -1,6 +1,7 @@
 import "dart:io";
 
 void main() {
+  var siswa = [];
   while (true) {
     print("\n=== PROGRAM TAMBAH NAMA ===\n");
     print("pilih opsi: ");
@@ -9,7 +10,15 @@ void main() {
     print("3. Exit program");
     int opsi = int.parse(stdin.readLineSync()!);
     if (opsi == 1) {
-      print
+      print("\n== TAMBAH NAMA ==");
+      stdout.write("Masukan nama: ");
+      var new_name = stdin.readLineSync();
+      siswa.add(new_name);
+    } else if (opsi == 2) {
+      print("\n== LIST NAMA ==");
+      for (var name in siswa.asMap().entries) {
+        print("${name.key}. ${name.value}");
+      }
     }
   }
 }
