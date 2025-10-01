@@ -1,3 +1,9 @@
 import 'dart:io';
 
-void main() {}
+void main() {
+  var list = []
+
+  while (true) {
+    
+  }
+}
