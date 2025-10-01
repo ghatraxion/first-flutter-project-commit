@@ -44,6 +44,9 @@ void main() {
           print("list ke ${ilang} berhasil di hapus!");
         }
       }
+    } else if (opsi == 4) {
+      print("\n=== PROGRAM EXITED! ===\n");
+      break;
     }
   }
 }
