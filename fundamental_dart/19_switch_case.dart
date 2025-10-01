@@ -10,13 +10,22 @@
  * default
  */
 void main() {
-  final firstnumber = 10;
+  final firstnumber = 40;
   final secondnumber = 20;
-  String operator = '=';
+  String operator = '/';
 
   switch (operator) {
     case '+':
       print("$firstnumber + $secondnumber: ${firstnumber + secondnumber}");
+      break;
+    case '-':
+      print("$firstnumber - $secondnumber: ${firstnumber - secondnumber}");
+      break;
+    case '*':
+      print("$firstnumber * $secondnumber: ${firstnumber * secondnumber}");
+      break;
+    case '/':
+      print("$firstnumber / $secondnumber: ${firstnumber / secondnumber}");
       break;
     default:
       print('operator tidak jalan');
