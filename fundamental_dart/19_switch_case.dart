@@ -9,3 +9,11 @@
  * break;
  * default
  */
+ void main() {
+  switch (expression) {
+    case value:
+      
+      break;
+    default:
+  }
+ }

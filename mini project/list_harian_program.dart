@@ -41,7 +41,7 @@ void main() {
           print("INPUT TIDAK VALID!");
         } else {
           var ilang = list.removeAt(hapus - 1);
-          print("list ke ${ilang} berhasil di hapus!");
+          print("list ke ${hapus} berhasil di hapus!");
         }
       }
     } else if (opsi == 4) {
