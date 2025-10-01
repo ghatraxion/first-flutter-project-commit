@@ -29,7 +29,13 @@ void main() {
     } else if (opsi == 3) {
       print("== HAPUS LIST ==");
       if (list.isEmpty) {
-        print("beluma")
+        print("belum ada list untuk dihapus!");
+      } else {
+        for (var see in list.asMap().entries) {
+          print("${see.key + 1}. ${see.value}");
+        }
+        stdout.write("Masukan nomor yang ingin dihapus: ");
+        int hapus = int.parse(stdin.readLineSync()!);
       }
     }
   }
