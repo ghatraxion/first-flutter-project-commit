@@ -12,7 +12,7 @@
 void main() {
   final firstnumber = 10;
   final secondnumber = 20;
-  String operator = '+';
+  String operator = '=';
 
   switch (operator) {
     case '+':

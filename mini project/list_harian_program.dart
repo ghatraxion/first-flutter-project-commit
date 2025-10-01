@@ -28,7 +28,7 @@ void main() {
         }
       }
     } else if (opsi == 3) {
-      print("== HAPUS LIST ==");
+      print("\n== HAPUS LIST ==");
       if (list.isEmpty) {
         print("belum ada list untuk dihapus!");
       } else {
