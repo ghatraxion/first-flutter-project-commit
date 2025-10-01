@@ -18,7 +18,7 @@ void main() {
       print("${new_name} Berhasil ditambahkan!");
     } else if (opsi == 2) {
       print("\n== LIST NAMA ==");
-      if (siswa == false) {
+      if (siswa.isEmpty) {
         print("Belum ada nama yang ditambahkan!");
       } else {
         for (var name in siswa.asMap().entries) {
@@ -26,7 +26,7 @@ void main() {
         }
       }
     } else if (opsi == 3) {
-      print("=== PROGRAM EXITED! ===");
+      print("=== PROGRAM EXITED! ===\n");
       break;
     } else {
       print("=== INPUT TIDAK VALID! ===");
