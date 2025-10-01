@@ -10,6 +10,7 @@ void main() {
     print("2. lihat list");
     print("3. Hapus list");
     print("4. exit program");
+    stdout.write("Masukan opsi: ");
     int opsi = int.parse(stdin.readLineSync()!);
     if (opsi == 1) {
       print("\n== TULIS LIST BARU ==");
@@ -40,7 +41,7 @@ void main() {
         if (hapus < 1 || hapus > list.length) {
           print("INPUT TIDAK VALID!");
         } else {
-          var ilang = list.removeAt(hapus - 1);
+          list.removeAt(hapus - 1);
           print("list ke ${hapus} berhasil di hapus!");
         }
       }
