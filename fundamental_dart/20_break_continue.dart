@@ -6,4 +6,6 @@
  * continue digunakan untuk melewati 1 iterasi, lalu lanjut ke iterasi
  * berikutnya
  */
-
+void main() {
+  
+}
