@@ -19,6 +19,10 @@ void main() {
   for (int i = 0; i <= 10; i++) {
     if (i == 7) {
       continue;
+      /**
+       * saat i = 7, i akan  dilewati, akan tetapi
+       * loop tetap berjalan sampai kondisi i yang terpenuhi
+       */
     }
     print(i);
   }
