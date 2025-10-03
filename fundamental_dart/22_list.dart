@@ -24,4 +24,8 @@ void main() {
   // dimulai dari 0
   print("=====length=====");
   print(buah.length); //melihat data yang ada
+
+  print("=====constains=====");
+  // mengecek apalah item ada
+  print(buah.contains("pisang"));
 }
