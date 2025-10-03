@@ -10,6 +10,10 @@ void main() {
     int option = int.parse(stdin.readLineSync()!);
     if (option == 1) {
       print("\n=== VOCAL DETECTOR! ===");
+      print("-----------------------------")
+      stdout.write("enter some word: ");
+      var word = stdin.readLineSync()!;
+      st
     }
   }
 }
