@@ -1,5 +1,13 @@
+import 'dart:io';
+
 void main() {
-  while(true {
+  while (true) {
+    print("\n=== VOCAL DETECTOR PROGRAM ===");
+    print("choose an option: ");
+    print("1. Vocal Detector");
+    print("2. Exit");
+    stdout.write("Enter option by the number: ");
+    int option = int.parse(stdin.readLineSync()!);
     
-  })
+  }
 }
