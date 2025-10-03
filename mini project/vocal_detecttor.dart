@@ -10,12 +10,17 @@ void main() {
     int option = int.parse(stdin.readLineSync()!);
     if (option == 1) {
       print("\n=== VOCAL DETECTOR! ===");
-      print("-----------------------------")
+      print("-----------------------------");
       stdout.write("enter some word: ");
       var word = stdin.readLineSync()!;
       stdout.write("enter the vocal you looking for: ");
       var vocal = stdin.readLineSync()!;
-      
+      for (var i = 0; i < word.length; i++) {
+        if (vocal.contains(word[i])) {
+          print("word: $word");
+          print("vocal: ${word[1]}");
+        }
+      }
     }
   }
 }
