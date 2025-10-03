@@ -57,4 +57,14 @@ void main() {
     "kerang ijo",
     "es buah",
   ];
+
+  var all_in = [breakfast, lunch];
+
+  var all_in2 = [...breakfast, ...lunch];
+  print(all_in);
+  print(all_in2);
+  /**
+   * spread list digunakan untuk mengabungkan dua list / lebih
+   * menjadi satu list
+   */
 }
