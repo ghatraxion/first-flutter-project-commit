@@ -27,6 +27,8 @@ void main() {
     } else if (option == 2) {
       print("=== PROGRAM EXITED! ===");
       break;
-    } 
+    } else {
+      print("INPUT IS NOT VALID!");
+    }
   }
 }
