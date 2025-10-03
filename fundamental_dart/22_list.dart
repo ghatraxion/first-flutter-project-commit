@@ -22,4 +22,6 @@ void main() {
   print(buah);
   // untuk pemanggilan data dari variable menggunakan [index]
   // dimulai dari 0
+  print("=====length=====");
+  print(buah.length); //melihat data yang ada
 }
