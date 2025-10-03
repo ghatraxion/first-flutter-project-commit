@@ -25,7 +25,8 @@ void main() {
       print("word: $word");
       print("vocal $vocal: $vocal2");
     } else if (option == 2) {
-      pr
-    }
+      print("=== PROGRAM EXITED! ===");
+      break;
+    } 
   }
 }
