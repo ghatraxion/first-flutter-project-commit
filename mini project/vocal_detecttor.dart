@@ -8,6 +8,8 @@ void main() {
     print("2. Exit");
     stdout.write("Enter option by the number: ");
     int option = int.parse(stdin.readLineSync()!);
-    
+    if (option == 1) {
+      print("\n=== VOCAL DETECTOR! ===");
+    }
   }
 }
