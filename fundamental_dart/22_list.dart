@@ -1,5 +1,3 @@
-import 'dart:async';
-
 /**
  * list menyimpan data secara berurutan dan diakses
  * melalui index. index dibaca / dimulai dari index ke 0
