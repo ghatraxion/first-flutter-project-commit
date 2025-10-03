@@ -13,7 +13,9 @@ void main() {
       print("-----------------------------")
       stdout.write("enter some word: ");
       var word = stdin.readLineSync()!;
-      st
+      stdout.write("enter the vocal you looking for: ");
+      var vocal = stdin.readLineSync()!;
+      
     }
   }
 }
