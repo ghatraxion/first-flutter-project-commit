@@ -15,12 +15,13 @@ void main() {
       var word = stdin.readLineSync()!;
       stdout.write("enter the vocal you looking for: ");
       var vocal = stdin.readLineSync()!;
+      int vocal2 = 0;
       for (var i = 0; i < word.length; i++) {
-        if (vocal.contains(word[i])) {
-          print("word: $word");
-          print("vocal: ${word[1]}");
+        if (word[i] == vocal) {
+          vocal2 += 1;
         }
       }
+      print(vocal2);
     }
   }
 }
