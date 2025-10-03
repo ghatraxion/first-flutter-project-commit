@@ -28,4 +28,15 @@ void main() {
   print("=====constains=====");
   // mengecek apalah item ada
   print(buah.contains("pisang"));
+
+  print("=====indexoff=====");
+  print("index pisang ${buah.indexOf("pisang")}");
+
+  print("=====clear=====");
+  print(buah);
+
+  print("=====foreach=====");
+  buah.forEach(
+    (e) => print(e),
+  ); //foreach digunakan untuk memanggil seluruh item di dalam list
 }
