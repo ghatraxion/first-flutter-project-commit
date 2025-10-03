@@ -1,3 +1,5 @@
+import 'dart:async';
+
 /**
  * list menyimpan data secara berurutan dan diakses
  * melalui index. index dibaca / dimulai dari index ke 0
@@ -39,4 +41,20 @@ void main() {
   buah.forEach(
     (e) => print(e),
   ); //foreach digunakan untuk memanggil seluruh item di dalam list
+
+  print("=====spreadlist=====");
+  List<String> breakfast = [
+    "nasi kebuli",
+    "telor",
+    "ayam bakar",
+    "sayur bayem",
+  ];
+
+  List<String> lunch = [
+    "nasi mandi",
+    "beef",
+    "bakso bakar",
+    "kerang ijo",
+    "es buah",
+  ];
 }
