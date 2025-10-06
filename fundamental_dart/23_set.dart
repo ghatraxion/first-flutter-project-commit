@@ -23,4 +23,17 @@ void main() {
    * dart juga mendukung union dan intersection
    * union => menggabungkan 
    */
+  Set<int> segmenA = {1, 3, 5, 7};
+  Set<int> segmenB = {2, 4, 6, 8};
+  var UnionSegmen = segmenA.union(segmenB);
+  print(UnionSegmen);
+  var interSectionSS = segmenA.intersection(segmenB);
+  print(interSectionSS);
+
+  Set<int> segmenC = {1, 5, 7, 9, 10};
+  var intersectionC = segmenA.intersection(segmenC);
+  print(intersectionC);
+  /**
+   * gabungan dARI 2 SET / lebih
+   */
 }
