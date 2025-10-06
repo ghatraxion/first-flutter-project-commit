@@ -44,5 +44,5 @@ void main() {
   print("D. panjang data variable namaKelasB: $longClassB\n");
   print("E. panjang data variable unionClass: $uniLong\n");
   print("F. panjang data variable interClass: $interLong\n");
-  print("==== FINISH! ====");
+  print("==== FINISH! ====\n");
 }
