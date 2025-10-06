@@ -16,4 +16,5 @@ void main() {
   };
 
   print(plat);
+  print(plat['b']);
 }
