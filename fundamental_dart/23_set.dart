@@ -19,4 +19,8 @@ void main() {
    * sesuai index
    */
   print(number.elementAt(1));
+  /**
+   * dart juga mendukung union dan intersection
+   * union => menggabungkan 
+   */
 }
