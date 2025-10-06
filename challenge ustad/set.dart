@@ -9,7 +9,7 @@
  */
 
 void main() {
-  print("\n=== SET LEARNING TASK ===\n");
+  print("\n===LEARNING SET!===\n");
   Set<String> namaKelasA = {
     "agha",
     "rafif",
@@ -32,11 +32,17 @@ void main() {
   var interClass = namaKelasA.intersection(namaKelasB);
   var longClassA = namaKelasA.length;
   var longClassB = namaKelasB.length;
+  var uniLong = unionClass.length;
+  var interLong = interClass.length;
   print(
-    "hasil union dari variable \n1. $namaKelasA\n2. $namaKelasB\nadalah: $unionClass\n",
+    "A. hasil union dari variable \n1. $namaKelasA\n2. $namaKelasB\nadalah: $unionClass\n",
   );
   print(
-    "hasil intersection dari variable \n1. $namaKelasA\n2. $namaKelasB\nadalah: $interClass\n",
+    "B. hasil intersection dari variable \n1. $namaKelasA\n2. $namaKelasB\nadalah: $interClass\n",
   );
-  print("C. panjang data variable namaKelasA: $longClassA");
+  print("C. panjang data variable namaKelasA: $longClassA\n");
+  print("D. panjang data variable namaKelasB: $longClassB\n");
+  print("E. panjang data variable unionClass: $uniLong\n");
+  print("F. panjang data variable interClass: $interLong\n");
+  print("==== FINISH! ====");
 }
