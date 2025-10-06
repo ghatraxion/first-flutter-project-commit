@@ -5,6 +5,7 @@
  */
 
 void main() {
-  Set<num> number = {1, 2, 3, 4, 5, 6, 7, 8};
+  Set<num> number = {1, 2, 3, 4, 5, 6};
   print(number);
+  number.add(8);
 }
