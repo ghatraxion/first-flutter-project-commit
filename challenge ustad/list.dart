@@ -11,4 +11,5 @@ void main() {
   print(nama);
   print(nama[3]);
   nama.add("agkos");
+  print(nama);
 }
