@@ -5,9 +5,9 @@
 
 void main() {
   Map<String, String> plat = {
-    'A' = 'banten',
-    'B' = 'jakarta',
-    'D' = 'bandung',
-    'E' = 'cirebon',
+    'A' : 'banten',
+    'B' : 'jakarta',
+    'D' : 'bandung',
+    'E' : 'cirebon',
   };
 }
