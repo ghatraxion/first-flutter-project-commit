@@ -25,8 +25,8 @@ void main() {
     "cean",
     "hafid",
     "affan",
-    "zaidan",
     "zaka",
+    "agha",
   };
   var unionClass = namaKelasA.union(namaKelasB);
   var interClass = namaKelasA.intersection(namaKelasB);
