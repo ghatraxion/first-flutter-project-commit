@@ -30,10 +30,13 @@ void main() {
   };
   var unionClass = namaKelasA.union(namaKelasB);
   var interClass = namaKelasA.intersection(namaKelasB);
+  var longClassA = namaKelasA.length;
+  var longClassB = namaKelasB.length;
   print(
     "hasil union dari variable \n1. $namaKelasA\n2. $namaKelasB\nadalah: $unionClass\n",
   );
   print(
-    "hasil intersection dari variable \n1. $namaKelasA\n2. $namaKelasB\nadalah: $interClass",
+    "hasil intersection dari variable \n1. $namaKelasA\n2. $namaKelasB\nadalah: $interClass\n",
   );
+  print("C. panjang data variable namaKelasA: $longClassA");
 }
