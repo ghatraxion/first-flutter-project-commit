@@ -13,5 +13,5 @@ void main() {
   ); // .addAll digunakan untuk menambahkan multi elemen / multi data *data lebih dari 1
   print(number);
   number.remove(7);
-  print(number)
+  print(number);
 }
