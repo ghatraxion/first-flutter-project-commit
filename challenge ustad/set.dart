@@ -29,7 +29,11 @@ void main() {
     "zaka",
   };
   var unionClass = namaKelasA.union(namaKelasB);
+  var interClass = namaKelasA.intersection(namaKelasB);
   print(
     "hasil union dari variable \n1. $namaKelasA\n2. $namaKelasB\nadalah: $unionClass\n",
+  );
+  print(
+    "hasil intersection dari variable \n1. $namaKelasA\n2. $namaKelasB\nadalah: $interClass",
   );
 }
