@@ -14,4 +14,9 @@ void main() {
   print(number);
   number.remove(7);
   print(number);
+  /**
+   * elemenAt() memanggil data elemen
+   * sesuai index
+   */
+  print(number.elementAt(1));
 }
