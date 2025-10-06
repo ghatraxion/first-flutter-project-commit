@@ -16,5 +16,5 @@ void main() {
   };
 
   print(plat);
-  print(plat['b']);
+  print(plat['b']); // untuk memanggil value dari key dengan cara variable['key]
 }
