@@ -7,7 +7,7 @@ class animal {
 
   // method / function / behavior(perilaku)
   void eat() {
-    print('$name is sleeping');
+    print('$name eating ${weigth + 1} kg');
   }
 
   void poop() {
