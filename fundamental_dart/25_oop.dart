@@ -14,4 +14,5 @@ void main() {
   var ireng = human("hitam", "black", 72.0);
   print(ireng.hair);
   print(ireng.skin);
+  print(ireng.weight);
 }
