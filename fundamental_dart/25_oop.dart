@@ -1,8 +1,9 @@
+// class = blueprint
 class human {
   String skin = '';
   String hair = '';
   double weight = 0;
-
+  // dibawah ini namanya constructor
   human(this.skin, this.hair, this.weight);
 }
 
