@@ -51,3 +51,16 @@ void main() {
  * dan perilaku yang sama, namun vladimir bisa berenang kalau
  * ucup tidak bisa berenang
  */
+
+// 4 polymorphism
+/**
+ * dalam bahasa yunani berarti "banyak bentuk"
+ * sederhananya objek dapat memiliki bentuk
+ * atau implementasi yang berbeda beda pada suatu method
+ * yang sama.
+ * 
+ * example: semua manusia bergerak, namun tentu gerak ucup dan vladimir
+ * memiliki cara gerak yang berbeda.
+ * perbedaan bentuk atau cara tersebut merupakan
+ * contoh dari polymorphism.
+ */
