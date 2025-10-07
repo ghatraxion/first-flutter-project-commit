@@ -6,7 +6,15 @@ class animal {
   int age = 14;
 
   // method / function / behavior(perilaku)
-  void eat() {}
-  void poop() {}
-  void sleep() {}
+  void eat() {
+    print('$name is sleeping');
+  }
+
+  void poop() {
+    print('$name is still poop in toilet');
+  }
+
+  void sleep() {
+    print('$name is sleep');
+  }
 }
