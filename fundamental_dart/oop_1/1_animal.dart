@@ -18,3 +18,7 @@ class animal {
     print('$name is sleep');
   }
 }
+
+void main() {
+  var cat = animal();
+}
