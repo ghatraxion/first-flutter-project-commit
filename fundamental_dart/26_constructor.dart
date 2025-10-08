@@ -18,4 +18,5 @@ class animal {
 
 void main() {
   var cat = animal("meong", "black", 10);
+  cat.sleep();
 }
