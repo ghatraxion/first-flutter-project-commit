@@ -2,7 +2,7 @@ class animal {
   // properties
   String? name;
   String? color;
-  String? weight;
+  double? weight;
 
   // methods
   void eat() {
@@ -12,4 +12,10 @@ class animal {
   void sleep() {
     print("$name sedang tidur");
   }
+
+  animal(this.name, this.color, this.weight);
+}
+
+void main() {
+  var cat = animal("meong", "black", 10);
 }
