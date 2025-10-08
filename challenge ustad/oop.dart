@@ -1,37 +1,42 @@
+// game rpg berbasis oop by /agha/
+
 class character {
   String name;
-  int health;
+  int hp;
   int power;
 
-  character(this.name, this.health, this.power);
+  character(this.name, this.hp, this.power);
 
-  void serang(character target) {
-    print("$name menyerang ${target.name} dengan kekuatan $power");
-    target.health -= power;
-
-    if (target.health <= 0) {
-      print("${target.name} telah kalah dari $name");
+  void menyerang(character musuh) {
+    print("\n$name menyerang ${musuh.name} dengan kekuatan $power");
+    musuh.hp -= power;
+    if (musuh.hp <= 0) {
+      print("${musuh.name} telah kalah");
     } else {
-      print("${target.name} sekarang punya ${target.health}");
+      print("${musuh.name} masih memiliki ${musuh.hp}");
+      print("${musuh.name} masih belum kalah!\n");
     }
   }
 
-  void ngeheal(int amount) {
-    print("$name memulihkan $amount hp");
-    health += amount;
-    print("$name sekarang punya $health hp");
+  void healing(int amount) {
+    print("\n$name memulikan diri dengan hp $amount");
+    hp += amount;
+    print("$name memiliki hp: $hp");
   }
 
-  void status_hero() {
-    print("=== status $name ===");
-    print("hp = $health");
-    print("power = $power");
+  void status() {
+    print("\n=== status hero $name ===");
+    print("== Health power: $hp");
+    print("== Power attack: $power");
   }
 }
 
 void main() {
-  var hero = character("aldo", 10, 1000);
-  var goblin = character("goblin", 9, 1200);
-  hero.status_hero();
-  goblin.status_hero();
+  var hero = character("xavier", 100, 1500);
+  var enemy = character("Dragon", 120, 1500);
+
+  hero.status();
+  enemy.status();
+
+  hero.menyerang(enemy);
 }
