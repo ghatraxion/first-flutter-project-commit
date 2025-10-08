@@ -8,14 +8,14 @@ class character {
   character(this.name, this.hp, this.power);
 
   void menyerang(character musuh) {
-    print("\n$name menyerang ${musuh.name} dengan kekuatan $power");
+    print("$name menyerang ${musuh.name} dengan kekuatan $power");
     musuh.hp -= power;
     if (musuh.hp <= 0) {
-      print("${musuh.name} telah kalah");
+      print("${musuh.name} telah kalah\n");
     } else {
-      print("${musuh.name} masih memiliki ${musuh.hp}");
+      print("${musuh.name} masih memiliki ${musuh.hp} hp");
       print("${musuh.name} masih belum kalah!\n");
-      print("=== TO BE CONTINUED ===");
+      print("=== TO BE CONTINUED ===\n");
     }
   }
 
@@ -26,18 +26,20 @@ class character {
   }
 
   void status() {
-    print("\n=== status hero $name ===");
+    print("=== status hero $name ===");
     print("== Health power: $hp");
-    print("== Power attack: $power");
+    print("== Power attack: $power\n");
   }
 }
 
 void main() {
-  var hero = character("xavier", 100, 1500);
-  var enemy = character("Dragon", 120, 1500);
-
+  // berikan hp dan power minimal 1000!
+  var hero = character("xavier", 5, 2);
+  var enemy = character("Dragon", 5, 3);
+  print("\n=== GAME RPG BERBASIS OOP ===\n");
+  print("////// STATUS KARAKTER //////");
   hero.status();
   enemy.status();
-
-  hero.menyerang(enemy);
+  print("////// WAKTUNYA WAR! //////");
+  enemy.menyerang(hero);
 }
