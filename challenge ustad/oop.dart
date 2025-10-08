@@ -15,11 +15,23 @@ class character {
       print("${target.name} sekarang punya ${target.health}");
     }
   }
+
+  void ngeheal(int amount) {
+    print("$name memulihkan $amount hp");
+    health += amount;
+    print("$name sekarang punya $health hp");
+  }
+
+  void status_hero() {
+    print("=== status $name ===");
+    print("hp = $health");
+    print("power = $power");
+  }
 }
 
 void main() {
   var hero = character("aldo", 10, 1000);
   var goblin = character("goblin", 9, 1200);
-  hero.serang(goblin);
-  goblin.serang(hero);
+  hero.status_hero();
+  goblin.status_hero();
 }
