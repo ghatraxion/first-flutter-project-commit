@@ -18,6 +18,11 @@ class animal {
   }
 
   animal(this.name, this.color, this.weight);
+  // animal(String name, String color, double weight) {
+  //   this.name;
+  //   this.color;
+  //   this.weight;
+  // }
 }
 
 void main() {
