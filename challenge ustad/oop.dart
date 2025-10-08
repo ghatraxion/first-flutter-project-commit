@@ -11,9 +11,9 @@ class character {
     print("\n$name menyerang ${musuh.name} dengan kekuatan $power");
     musuh.hp -= power;
     if (musuh.hp <= 0) {
-      print("\n${musuh.name} telah kalah");
+      print("${musuh.name} telah kalah");
     } else {
-      print("\n${musuh.name} masih memiliki ${musuh.hp}");
+      print("${musuh.name} masih memiliki ${musuh.hp}");
       print("${musuh.name} masih belum kalah!\n");
       print("=== TO BE CONTINUED ===");
     }
