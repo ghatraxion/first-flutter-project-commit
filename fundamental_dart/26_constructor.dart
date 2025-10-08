@@ -1,5 +1,9 @@
 class animal {
   // properties
+
+  /**
+   * ketika sebuah objek dibuat
+   */
   String? name;
   String? color;
   double? weight;
