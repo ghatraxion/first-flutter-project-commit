@@ -17,4 +17,5 @@ void main() {
     ..color = 'black'
     ..eat()
     ..sleep();
+  print(hewan);
 }
