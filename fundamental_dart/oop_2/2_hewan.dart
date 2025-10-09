@@ -6,4 +6,7 @@ class hewan {
   // constructor
   hewan(this.name, this.weight, this.umur);
   // method
+  void eat() {}
+  void sleep() {}
+  void poop() {}
 }
