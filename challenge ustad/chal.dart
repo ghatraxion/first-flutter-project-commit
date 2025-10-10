@@ -43,4 +43,14 @@ void main() {
   book1.diskon(15);
   book1.restock(10);
   book1.f_size(15);
+
+  var book2 = Ebook(15)
+    ..book_name = 'Basic Networking'
+    ..author = 'Mas Tono'
+    ..harga = 130.000
+    ..stok_buku = 45;
+  book2.detail();
+  book2.diskon(12);
+  book2.restock(12);
+  book2.f_size(15);
 }
