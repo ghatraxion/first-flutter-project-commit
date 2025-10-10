@@ -23,4 +23,5 @@ void main() {
   var burung_ucup = burung("gel0", 9.0, 5, 'black')
     ..fly()
     ..nest();
+  print(burung_ucup);
 }
