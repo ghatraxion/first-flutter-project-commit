@@ -34,5 +34,13 @@ class Ebook extends book {
 }
 
 void main() {
-  
+  var book1 = Ebook(15)
+    ..book_name = 'Basic programmming'
+    ..author = 'Mas Leo'
+    ..harga = 120.000
+    ..stok_buku = 50;
+  book1.detail();
+  book1.diskon(15);
+  book1.restock(10);
+  book1.f_size(15);
 }

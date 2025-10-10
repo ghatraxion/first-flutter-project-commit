@@ -37,21 +37,21 @@ class book {
 
   book(this.book_name, this.author, this.harga, this.stok_buku);
   void diskon(double percent) {
-    print("/// Diskon Buku $book_name ///");
+    print("\n/// Diskon Buku $book_name ///");
     print("harga buku: $harga rb");
     print("diskon $percent%");
     print("harga diskon: ${harga! - (harga! * percent / 100)}");
   }
 
   void restock(int amount) {
-    print("/// Restock Buku $book_name ///");
+    print("\n/// Restock Buku $book_name ///");
     print("stock awal: $stok_buku");
     print("stock yang ditambahkan: $amount");
     print("Stock buku $book_name: ${stok_buku! + amount}");
   }
 
   void detail() {
-    print("=== Spesifikasi Buku ===");
+    print("\n=== Spesifikasi Buku ===");
     print("//Nama buku: $book_name");
     print("//Book Author: $author");
     print("//Book Price: $harga");
