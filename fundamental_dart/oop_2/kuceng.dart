@@ -14,3 +14,10 @@ class Kuceng extends hewan {
     print("$name is walking");
   }
 }
+
+
+
+
+
+
+// linknya:  http://bit.ly/4h8YA2q
